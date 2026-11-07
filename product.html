@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - PinkStore | E-Commerce Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/final logo.jpg" width="80px" alt="">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="Account.html">Account</a></li>
+
+                    </ul>
+                </nav>
+                <a href="cartdetails.html" class="cart">
+                    <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                    <i class="fas fa-cart-shopping"></i>
+                </a>
+                <img src="images/icons8-menu-50.png" width="35px" class="menu-icon" alt="icon" onclick="menutoggle()">
+            </div>
+
+        </div>
+    </div>
+    <div class="products">
+        <h1>All Products</h1>
+        <div class="product-row">
+            <div class="col">
+                <a href="productdetail1.html"><img src="images/spot-1.jpg" alt=""></a>
+                <h3>₹ 1,690</h3>
+            </div>
+            <div class="col">
+                <a href="productdetail2.html"><img src="images/spot2.jpg" alt=""></a>
+                <h3>₹ 1,700</h3>
+            </div>
+            <div class="col">
+               <a href="productdetail3.html"> <img src="images/spot3.jpg" alt=""></a>
+                <h3>₹ 1,900</h3>
+            </div>
+            <div class="col">
+              <a href="productdetail4.html">  <img src="images/spot4.jpg" alt=""></a>
+                <h3>₹ 1,890</h3>
+            </div>
+            <div class="col">
+                <a href=""><img src="images/spot5.jpg" alt=""></a>
+                <h3>₹ 3,690</h3>
+            </div>
+            <div class="col">
+                <a href=""><img src="images/spot6.jpg" alt=""></a>
+                <h3>₹ 2,690</h3>
+            </div>
+        </div>
+        <div class="product-rowtwo">
+            <div class="col">
+                <a href=""><img src="images/neckone.jpg" alt=""></a>
+                <h3>₹ 2,990</h3>
+            </div>
+            <div class="col">
+               <a href=""> <img src="images/brac1.jpg" alt=""></a>
+                <h3>₹ 3,000</h3>
+            </div>
+            <div class="col">
+               <a href=""> <img src="images/necktwo.jpg" alt=""></a>
+                <h3>₹ 2,999</h3>
+
+            </div>
+            <div class="col">
+              <a href="">  <img src="images/brac2.jpg" alt=""></a>
+                <h3>₹ 2,500</h3>
+            </div>
+            <div class="col">
+              <a href="">  <img src="images/neck3.jpg" alt=""></a>
+                <h3>₹ 4,600</h3>
+            </div>
+            <div class="col">
+                <a href=""><img src="images/neck4.jpg" alt=""></a>
+                <h3>₹ 6,990</h3>
+            </div>
+        </div>
+        <div class="pagebtn">
+            <span><button>1</button></span>
+             <span><button>2</button></span>
+              <span><button>3</button></span>
+               <span><button>4</button></span>
+                <span><button>&#8594;</button></span>
+        </div>
+    </div>
+
+
+    <!-- ....footer -->
+    <div class="footer">
+        <div class="cont">
+            <div class="roww">
+                <div class="foot-col-1  box">
+                    <h3>Dowload Our App</h3>
+                    <p>Dowload App for Android and ios Mobile phone </p>
+                    <span><img src="images/playstore.png" alt="googlestore"></span>
+                    <span><img src="images/appstore.png" alt="appstore"></span>
+                </div><br>
+                <div class="foot-col-2  box">
+                    <img src="images/final logo.jpg" width="100px" alt="">
+                    <p>Our purpose is to simplify your wardrobe decisions by using smart personalization to deliver a
+                        tailored styling experience right to your fingertips.</p>
+                </div>
+                <div class="foot-col-3 box">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="">Coupons</a></li>
+                        <li><a href="">Blog Post</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col-4 box">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a> </li>
+                        <li><a href="">X </a></li>
+                        <li><a href="">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="copy">
+
+            <p>Copyright © 2026 The Pink Store. All rights reserved.</p>
+        </div>
+
+    </div>
+
+    <!-- js for toggle menu -->
+    <script>
+        let menuItems = document.getElementById("menuItems");
+        menuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px"
+            }
+            else {
+                menuItems.style.maxHeight = "0px"
+            }
+        }
+
+    </script>
+</body>
+
+</html>
